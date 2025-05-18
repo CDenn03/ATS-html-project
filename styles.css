@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+h3 {
+  color: white;
+  font-size: 35px;
+}
+h4 {
+  color: white;
+  font-size: 30px;
+}
+h5 {
+  color: white;
+  font-size: 25px;
+}
+h6 {
+  color: white;
+  font-size: 20px;
+}
+.navbar {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  justify-content: center;
+  background-color: white;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/tech-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.ATSN-logo img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+.section-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-header {
+  margin: 0px;
+}
+.section-header-orange {
+  color: #f39221;
+  margin: 0px;
+}
+.section-header-b {
+  margin: 0px;
+}
+.section-header-c {
+  margin: 0px;
+}
+.register-btn {
+  background-color: #f39221;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+.section-why {
+  background-color: #f39221;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-why h4{
+  margin: 0px;
+  color: #0F0742;
+}
+.section-speakers {
+  background-color: white;
+  height: 200px;
+}
